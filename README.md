@@ -1,14 +1,17 @@
-# S-ID: Causal Effect Identification in a Sub-Population
-
+# s-ID: Causal Effect Identification in a Sub-Population
+This repository implements the s-ID algorithm in "s-ID: Causal Effect Identification in a Sub-Population."
 
 ## Abstract
  Causal inference in a sub-population involves identifying the causal effect of an intervention on a specific subgroup, which is distinguished from the whole population through the influence of systematic biases in the sampling process.
     However, ignoring the subtleties introduced by sub-populations can either lead to erroneous inference or limit the applicability of existing methods. We introduce and advocate for a causal inference problem in sub-populations (henceforth called s-ID), in which we merely have access to observational data of the targeted sub-population (as opposed to the entire population). Existing inference problems in sub-populations operate on the premise that the given data distributions originate from the entire population, thus, cannot tackle the s-ID problem. To address this gap, we provide necessary and sufficient conditions that must hold in the causal graph for a causal effect in a sub-population to be identifiable from the observational distribution of that sub-population. Given these conditions, we present a sound and complete algorithm for the s-ID problem.
 
 ## Contents
-*```main.py```: This file consists of the main algorithm and utils for working with graphs.
-*```examples.py```: This file includes some examples in the paper.
-*```requirements.txt```: Requirements packages for running the code.
+* ```main.py```: This file consists of the main algorithm and utils for working with graphs.
+
+* ```examples.py```: This file includes some examples in the paper.
+
+* ```requirements.txt```: Requirements packages for running the code.
+
 
 
 ## Install
@@ -19,8 +22,8 @@ pip install -r requirements.txt
 ```
 ## How to use the algorithm
 
-1. First, you need to create a dag using the function ```create_dag```.
-2. Then, call ```s-ID``` to identify your desired causal effect.
+* First, you need to create a dag using the function ```create_dag```.
+* Then, call ```s-ID``` to identify your desired causal effect.
 
 
 
