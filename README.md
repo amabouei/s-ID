@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 
 
-##Cite
+## Cite
 If you find this code useful in your research, please consider citing:
 
 ```
@@ -42,5 +42,5 @@ If you find this code useful in your research, please consider citing:
 ```
 
 
-##Contact
+## Contact
 Please get in touch with amir.abouei@epfl.ch in case you have questions regarding the code.
