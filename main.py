@@ -66,7 +66,7 @@ def get_formula(anc_s, W, dag, X, Y) -> str:
 	margin_var = set(dag.nodes()).difference(X.union(Y).union({"s"}))
 	expr = ""
 	if X_1:
-		expr += f"1/P^s({X_1}) * "
+		expr += f"1/P^s({set_to_string(X_1)}) * "
 	if margin_var:
 		expr += f"\sum_({set_to_string(margin_var)}) "	
 	
