@@ -31,10 +31,10 @@ pip install -r requirements.txt
 If you find this code useful in your research, please consider citing:
 
 ```
-@misc{abouei2023sid,
+@misc{abouei2024sid,
       title={s-ID: Causal Effect Identification in a Sub-Population}, 
       author={Amir Mohammad Abouei and Ehsan Mokhtarian and Negar Kiyavash},
-      year={2023},
+      year={2024},
       eprint={2309.02281},
       archivePrefix={arXiv},
       primaryClass={cs.LG}
